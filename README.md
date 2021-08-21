@@ -1,2 +1,2 @@
-# Mobile-Cross-Platform-Programm_DLing
+# Mobile-Cross-Platform-Programm_DL
 Repository for univ assignments 
