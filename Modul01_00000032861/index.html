@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modul Week 01 - Mobile Cross-Platform Programming</title>
+
+    <!-- Ionic Framework CDN -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
 </head>
+
 <body>
-    
+    <ion-app>
+        <!-- Header -->
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-title>Kalkulator BMI</ion-title>
+            </ion-toolbar>
+        </ion-header>
+
+        <!-- Kalkulator BMI -->
+        <ion-conten class="ion-padding">
+            <!-- input berat & tinggi -->
+            <ion-item>
+                <ion-label position="floating">Tinggi Badan</ion-label>
+                <ion-input id="height-input"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating">Berat Badan</ion-label>
+                <ion-input id="weight-input"></ion-input>
+            </ion-item>
+
+            <!-- Tombol kalkulator bmi -->
+            <ion-grid class="ion-text-center ion-margin">
+                <ion-row>
+                    <ion-col>
+                        <ion-button id="calc-btn">
+                            <ion-icon slot="start" name="calculator-outline"></ion-icon>
+                            Hitung BMI
+                        </ion-button>
+                    </ion-col>
+                    <ion-col>
+                        <ion-button fill="outline" id="reset-btn">
+                            <ion-icon slot="start" name="refresh-outline"></ion-icon>
+                            Reset
+                        </ion-button>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+            
+
+            <div id="result-bmi"></div>
+        </ion-content>
+    </ion-app>
+
+    <!-- js -->
+    <script src="app.js"></script>
 </body>
 </html>
