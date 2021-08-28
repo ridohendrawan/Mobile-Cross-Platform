@@ -6,3 +6,4 @@
 
 ### Learning :
 ✨ MINGGU 1 - Dasar-Dasar Ionic
+✨ MINGGU 2 - Kombinasi Ionic & React.js 

@@ -5,22 +5,22 @@ const resetBtn = document.getElementById('reset-btn');
 
 // ============================== Kalkulator BMI
 const calculateBMI = () =>{
-    const enteredHeight = +heightInput.value / 100;
-    const enteredWeight = +weightInput.value;
-    // Print Hasil Kalkulator
-    var status;
+    const enteredHeight = +heightInput.value / 100; //Tinggi dalam meter
+    const enteredWeight = +weightInput.value; //Berat dalam Kg
+    // Print Kriteria Hasil Kalkulator BMI
+    var kriteriabmi;
     var bmi = enteredWeight/(enteredHeight*enteredHeight);
-    if(bmi >= 30){
-        status = "Obesitas";
-    }else if(bmi > 24.9){
-        status = "Gemuk";
+    if(bmi < 18.5){
+        kriteriabmi = "Kurus";
     }else if(bmi >= 18.5){
-        status = "Normal";
-    }else if( bmi < 18.5){
-        status = "Kurus";
+        kriteriabmi = "Normal";
+    }else if(bmi > 24.9){
+        kriteriabmi = "Gemuk";
+    }else if( bmi >= 30){
+        kriteriabmi = "Obesitas";;
     }
     document.getElementById("result-bmi").innerHTML = 
-    '<center> <ion-card style="width: 30%;"><ion-card-header >'+bmi+'</ion-card-header><ion-card-content style="font-size:large">'+status+'</ion-card-content></ion-card></center>';
+    '<center> <ion-card style="width: 30%;"><ion-card-header >'+bmi+'</ion-card-header><ion-card-content style="font-size:large">'+kriteriabmi+'</ion-card-content></ion-card></center>';
 }
 calculateBtn.addEventListener('click',calculateBMI);
 
