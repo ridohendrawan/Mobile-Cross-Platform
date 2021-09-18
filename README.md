@@ -8,3 +8,4 @@
 ✨ MINGGU 1 - Dasar-Dasar Ionic <br>
 ✨ MINGGU 2 - Kombinasi Ionic & React.js 
 ✨ MINGGU 3 - Kombinasi Ionic & React.js (part 2)
+✨ MINGGU 4 - Membangun Native Mobile App
