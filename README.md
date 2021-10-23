@@ -11,3 +11,5 @@
 ✨ MINGGU 4 - Membangun Native Mobile App <br>
 ✨ MINGGU 5 - Style & Theme <br>
 ✨ MINGGU 6 - Navigation <br>
+✨ MINGGU 7 - Tema <br>
+✨ MINGGU 8 - Capacitor, Camera, Context <br>
