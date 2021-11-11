@@ -13,3 +13,4 @@
 ✨ MINGGU 6 - Navigation <br>
 ✨ MINGGU 7 - Tema <br>
 ✨ MINGGU 8 - Capacitor, Camera, Context <br>
+✨ MINGGU 9 - Capacitor: Geolocation & Google Maps <br>
